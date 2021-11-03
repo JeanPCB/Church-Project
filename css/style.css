@@ -35,27 +35,37 @@ body::-webkit-scrollbar-thumb {
     padding: 0 4% 7%;
 }
 
+/* Nav Bar */
+
 .navbar {
+    width: 55vw;
+    margin: 0 21% 0 auto;
+    padding-top: 20px;
     padding-top: 10px;
 }
-
-/* Nav Bar */
 
 .ms-auto {
     margin: 0 auto;
 }
 
-.navbar-brand {
-    margin-right: 0;
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color:#fff;
 }
 
 .logo-navbar {
-    width: 230px;
+    width: 250px;
+    height: 150px;
+    position: relative;
+    top: 10px;
 }
 
 .navbar-nav li {
-    font-size: 24px;
-    padding: 20px 10px 20px 20px;
+    font-size: 20px;
+    padding: 10px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -65,7 +75,7 @@ body::-webkit-scrollbar-thumb {
 /* Title */
 
 .title-box {
-    padding-top: 60px;
+    padding-top: 80px;
     text-align: center;
 }
 
@@ -152,7 +162,7 @@ body::-webkit-scrollbar-thumb {
 	left: 0;
 	right: 0;
 	text-align: center;
-    margin-top: 80px;
+    margin-top: 90px;
 }
 .scroll-btn > * {
 	display: block;
