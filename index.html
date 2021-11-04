@@ -20,6 +20,7 @@
       rel="stylesheet"
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
+      type="text/css"
     />
 
     <!-- CSS Stylesheets -->
@@ -29,67 +30,134 @@
   <body>
     <!-- Page Start -->
     <section id="title">
-        <div class="container-fluid">
-            <!-- Nav Bar -->
-            <nav class="navbar navbar-expand-md navbar-dark">
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto">
-                        <li>
-                            <a class="nav-link" href="">Cultos</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="">Diretoria</a>
-                        </li>
-                        <a class="navbar-brand">
-                            <img
-                            class="logo-navbar"
-                            src="./assets/icons/Logo Igreja.jfif.png"
-                            alt="IPB Araçatuba logo"
-                            />
-                        </a>
-                        <li>
-                            <a class="nav-link" href="">Sobre</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="">Contato</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-md navbar-dark">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto me-4">
+              <li>
+                <a
+                  class="nav-link btn btn-lg btn-dark btn-outline-light"
+                  href=""
+                  >CULTOS</a
+                >
+              </li>
+              <li>
+                <a
+                  class="nav-link btn btn-lg btn-dark btn-outline-light"
+                  href=""
+                  >DIRETORIA</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="show" id="navbarSupportedContent">
+            <img
+              class="logo-navbar"
+              src="./assets/images/logo__igreja_modified-removebg-preview.png"
+              alt="IPB Araçatuba logo"
+            />
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-4 me-auto">
+              <li>
+                <a
+                  class="nav-link btn btn-lg btn-dark btn-outline-light"
+                  href=""
+                  >SOBRE</a
+                >
+              </li>
+              <li>
+                <a
+                  class="nav-link btn btn-lg btn-dark btn-outline-light"
+                  href=""
+                  >CONTATO</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
 
-            <!-- Title -->
+        <!-- Title -->
 
-            <div class="title-box">
-                <h3 class="title-text">consectetur adipiscing elit, sed do</h3>
-                <h1 class="title-text">Lorem ipsum dolor sit amet</h1>
-                <h2 class="title-text">consectetur adipiscing elit, sed do eius</h2>
-                <button
-                    type="button"
-                    class="btn btn-lg btn-dark btn-outline-light call-button">
-                    VENHA NOS CONHECER
-                </button>
-            </div>
-            <span class="scroll-btn">
-                <a>
-                    <span class="mouse">
-                        <span>
-                        </span>
-                    </span>
-                </a>
-              <p>VEJA MAIS</p>
-            </span>    
+        <div class="title-box">
+          <h3 class="title-text">consectetur adipiscing elit, sed do</h3>
+          <h1 class="title-text">Lorem ipsum dolor sit amet</h1>
+          <h2 class="title-text">consectetur adipiscing elit, sed do eius</h2>
+          <button
+            type="button"
+            class="btn btn-lg btn-dark btn-outline-light call-button"
+          >
+            CLIQUE AQUI E VENHA NOS CONHECER
+          </button>
         </div>
+        <span class="scroll-btn">
+          <a>
+            <span class="mouse">
+              <span> </span>
+            </span>
+          </a>
+          <p>VEJA MAIS</p>
+        </span>
+      </div>
     </section>
+
+    <!-- Worship -->
+    <section id="worship">
+      <div class="container-fluid containers-contents">
+        <h1 class="text-center worship-title">Cultos</h1>
+        <div class="row row-cols-lg-2 worship-box">
+            <div class="col col-worship-box">
+                <h2 class="text-center col-worship-title">Culto Solene</h2>
+                <img
+                class="worship-box-img"
+                src="assets/images/DSC_9648-modified.png"
+                alt="Culto-img"
+                />
+                <h3 class="text-center p-4">Aos Domingos (19h30)</h3>
+                <p class="col-worship-paragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt mollit anim id est.
+                </p>
+            </div>
+            <div class="col col-worship-box">
+                <h2 class="text-center col-worship-title">Estudo Bíblico</h2>
+                <img
+                class="worship-box-img"
+                src="assets/images/biblia-sagrada-1-modified.png"
+                alt="Biblia-img"
+                />
+                <h3 class="text-center p-4">Às Quintas-feiras (21h00)</h3>
+                <p class="col-worship-paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est.
+                </p>
+            </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
