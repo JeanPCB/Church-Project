@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Icon + title -->
+    <link
+      rel="icon"
+      href="./assets/icons/Logo_ipb-modified.png"
+      type="image/gif"
+      sizes="16x16"
+    />
     <title>IPB Araçatuba</title>
 
     <!-- Google Fonts -->
@@ -12,6 +20,19 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap"
       rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
     />
 
     <!-- Bootstrap CSS -->
@@ -28,11 +49,16 @@
   </head>
 
   <body>
+
+    <!-- Back to Top Button -->
+    <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
     <!-- Page Start -->
     <section id="title">
       <div class="container-fluid">
         <!-- Nav Bar -->
-        
         <nav class="navbar navbar-expand-md navbar-dark">
           <button
             class="navbar-toggler"
@@ -50,14 +76,14 @@
               <li>
                 <a
                   class="nav-link btn btn-lg btn-dark btn-outline-light"
-                  href=""
+                  href="#worship"
                   >CULTOS</a
                 >
               </li>
               <li>
                 <a
                   class="nav-link btn btn-lg btn-dark btn-outline-light"
-                  href=""
+                  href="#directorship"
                   >DIRETORIA</a
                 >
               </li>
@@ -75,14 +101,14 @@
               <li>
                 <a
                   class="nav-link btn btn-lg btn-dark btn-outline-light"
-                  href=""
+                  href="#about-us"
                   >SOBRE</a
                 >
               </li>
               <li>
                 <a
                   class="nav-link btn btn-lg btn-dark btn-outline-light"
-                  href=""
+                  href="#meet-us"
                   >CONTATO</a
                 >
               </li>
@@ -93,17 +119,19 @@
         <!-- Title -->
 
         <div class="title-box">
-            <div class="title-box-box">
-                <h3 class="title-text">consectetur adipiscing elit, sed do</h3>
-                <h1 class="title-text">Lorem ipsum dolor sit amet</h1>
-                <h2 class="title-text">consectetur adipiscing elit, sed do eius</h2>
-            </div>
+          <div class="title-box-box">
+            <h3 class="title-text">consectetur adipiscing elit, sed do</h3>
+            <h1 class="title-text">Lorem ipsum dolor sit amet</h1>
+            <h2 class="title-text">consectetur adipiscing elit, sed do eius</h2>
+          </div>
+          <a href="#meet-us">
             <button
-                type="button"
-                class="btn btn-lg btn-dark btn-outline-light call-button"
+              type="button"
+              class="btn btn-lg btn-dark btn-outline-light call-button"
             >
-                CLIQUE AQUI E VENHA NOS CONHECER
+              CLIQUE AQUI E VENHA NOS CONHECER
             </button>
+          </a>
         </div>
         <span class="scroll-btn">
           <a>
@@ -117,49 +145,225 @@
     </section>
 
     <!-- Worship -->
-    <section id="worship">
+    <section id="worship" class="background-uc">
       <div class="container-fluid containers-contents">
-        <h1 class="text-center worship-title">Cultos</h1>
+        <h1 class="text-center title-uc">CULTOS</h1>
         <div class="row row-cols-lg-2 worship-box">
-            <div class="col col-worship-box">
-                <h2 class="text-center col-worship-title">Culto Solene</h2>
-                <img
-                class="worship-box-img"
-                src="assets/images/DSC_9648-modified.png"
-                alt="Culto-img"
-                />
-                <h3 class="text-center p-4">Aos Domingos (19h30)</h3>
-                <p class="col-worship-paragraph">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                    nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                    sunt in culpa qui officia deserunt mollit anim id est.
-                </p>
-            </div>
-            <div class="col col-worship-box">
-                <h2 class="text-center col-worship-title">Estudo Bíblico</h2>
-                <img
-                class="worship-box-img"
-                src="assets/images/biblia-sagrada-1-modified.png"
-                alt="Biblia-img"
-                />
-                <h3 class="text-center p-4">Às Quintas-feiras (21h00)</h3>
-                <p class="col-worship-paragraph">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est.
-                </p>
-            </div>
+          <div class="col col-worship-box">
+            <h2 class="text-center h2-uc">Culto Solene</h2>
+            <img
+              class="worship-box-img"
+              src="./assets/images/DSC_9648-modified.png"
+              alt="Culto-img"
+            />
+            <h3 class="text-center p-4">Aos Domingos <em>(19h30)</em></h3>
+            <p class="p-uc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            </p>
+          </div>
+          <div class="col col-worship-box">
+            <h2 class="text-center h2-uc">Estudo Bíblico</h2>
+            <img
+              class="worship-box-img"
+              src="assets/images/biblia-sagrada-1-modified.png"
+              alt="Biblia-img"
+            />
+            <h3 class="text-center p-4">Às Quintas-feiras <em>(21h00)</em></h3>
+            <p class="p-uc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            </p>
+          </div>
         </div>
       </div>
     </section>
+
+    <!-- Directorship -->
+    <section id="directorship" class="background-cl">
+      <div class="container-fluid containers-contents">
+        <h1 class="text-center title-cl">DIRETORIA</h1>
+        <div class="row row-cols-lg-4 directorship-box">
+          <div class="col col-directorship-box">
+            <img
+              class="directorship-img"
+              src="./assets/images/Foto_pastor-modified.png"
+              alt="foto-pastor"
+            />
+            <h2 class="text-center">Pastor Claudemir Luquiari</h2>
+          </div>
+          <div class="col col-directorship-box">
+            <img
+              class="directorship-img"
+              src="./assets/images/Foto_pastor-modified.png"
+              alt="foto-pastor"
+            />
+            <h2 class="text-center">Presbítero<br />Cebinel</h2>
+          </div>
+          <div class="col col-directorship-box">
+            <img
+              class="directorship-img"
+              src="./assets/images/Foto_pastor-modified.png"
+              alt="foto-pastor"
+            />
+            <h2 class="text-center">Presbítero<br />Sílvio</h2>
+          </div>
+          <div class="col col-directorship-box">
+            <img
+              class="directorship-img"
+              src="./assets/images/Foto_pastor-modified.png"
+              alt="foto-pastor"
+            />
+            <h2 class="text-center">Presbítero<br />Denilson</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about-us" class="background-uc">
+      <div class="container-fluid containers-contents">
+        <h1 class="text-center title-uc">SOBRE NÓS</h1>
+        <div class="row row-cols-lg-1 about-us-box">
+          <div class="col col-about-us-box">
+            <img
+              class="about-us-img abt-img-1"
+              src="./assets/images/Fachada_Igreja2.jpg"
+              alt="foto-antiga-igreja"
+            />
+            <h2 class="h2-uc about-us-box-title">Um Pouco Sobre a Fundação</h2>
+            <p class="p-uc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure
+              dolorLorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+              do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est
+              laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              sunt in culpa qui officia deserunt mollit anim id est
+              laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              sunt in culpa qui officia deserunt mollit anim id est
+            </p>
+          </div>
+          <div class="col col-about-us-box">
+            <img
+              class="about-us-img abt-img-2"
+              src="./assets/images/Fachada_Igreja1.jpg"
+              alt="foto-atual-igreja"
+            />
+            <h2 class="h2-uc about-us-box-title">Como Estamos Atualmente</h2>
+            <p class="p-uc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure
+              dolorLorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+              do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco labori
+              dolorLorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+              do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco ullamco
+              ullamco lullamco
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Meet Us -->
+    <section id="meet-us" class="background-cl">
+      <div class="container-fluid containers-contents meet-us-container">
+        <div class="row row-cols-lg-1 meet-us-box justify-content-center">
+          <div class="col col-lg-12 col-meet-us-box">
+            <div class="container-meet-us-box">
+              <ul>
+                <li>
+                  <h2 class="h2-uc text-center meet-us-title text-danger">
+                    LOCALIZAÇÃO E CONTATO
+                  </h2>
+                </li>
+                <li class="text-center">
+                  <i class="fas fa-map-marked-alt icon-meet-us"></i>
+                  <h3 class="display-meet-us-box">Endereço:</h3>
+                  <p class="p-meet-us-box display-meet-us-box">
+                    Rua Amador Bueno, 35
+                  </p>
+                </li>
+                <li class="text-center mb-5">
+                  <i class="fas fa-phone-alt icon-meet-us"></i>
+                  <h3 class="display-meet-us-box">Telefone:</h3>
+                  <p class="p-meet-us-box display-meet-us-box">3623-1240</p>
+                </li>
+                <li class="text-center">
+                  <a href="#worship">
+                    <button
+                      type="button"
+                      class="btn btn-lg btn-dark schedule-button"
+                    >
+                      HORÁRIOS
+                    </button>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="text-center">
+      <p class="mb-5">
+        <a
+          href="https://www.facebook.com/igrejapresbiterianadearacatuba/"
+          target="_blank"
+          class="footer-link"
+          ><i class="fab fa-facebook-f icon-footer"></i
+          >&nbsp;&nbsp;Facebook</a
+        >
+      </p>
+      <p class="mt-4">© Copyright 2021 Igreja Presbiteriana de Araçatuba. Todos Direitos Reservados</p>
+      <p class="text-secondary">Desenvolvido por JeanPCB</p>
+    </footer>
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="js/script.js"></script>
 
     <!-- Bootstrap JS -->
     <script
