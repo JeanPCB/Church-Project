@@ -49,7 +49,6 @@
   </head>
 
   <body>
-
     <!-- Back to Top Button -->
     <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
       <i class="fas fa-arrow-up"></i>
@@ -148,7 +147,23 @@
     <section id="worship" class="background-uc">
       <div class="container-fluid containers-contents">
         <h1 class="text-center title-uc">CULTOS</h1>
-        <div class="row row-cols-lg-2 worship-box">
+        <div class="row row-cols-lg-3 worship-box">
+          <div class="col col-worship-box">
+            <h2 class="text-center h2-uc">Escola Bíblica</h2>
+            <img
+              class="worship-box-img"
+              src="./assets/images/Ebd_img-modified.png"
+              alt="Biblia-img"
+            />
+            <h3 class="text-center p-4 h3-worship">
+              Aos Domingos <em>(9h00)</em>
+            </h3>
+            <p class="p-uc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            </p>
+          </div>
           <div class="col col-worship-box">
             <h2 class="text-center h2-uc">Culto Solene</h2>
             <img
@@ -156,7 +171,9 @@
               src="./assets/images/DSC_9648-modified.png"
               alt="Culto-img"
             />
-            <h3 class="text-center p-4">Aos Domingos <em>(19h30)</em></h3>
+            <h3 class="text-center p-4 h3-worship">
+              Aos Domingos <em>(19h30)</em>
+            </h3>
             <p class="p-uc">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -167,10 +184,12 @@
             <h2 class="text-center h2-uc">Estudo Bíblico</h2>
             <img
               class="worship-box-img"
-              src="assets/images/biblia-sagrada-1-modified.png"
+              src="./assets/images/biblia-sagrada-1-modified.png"
               alt="Biblia-img"
             />
-            <h3 class="text-center p-4">Às Quintas-feiras <em>(21h00)</em></h3>
+            <h3 class="text-center p-4 h3-worship">
+              Às Quintas<em>(21h00)</em>
+            </h3>
             <p class="p-uc">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -183,41 +202,122 @@
 
     <!-- Directorship -->
     <section id="directorship" class="background-cl">
-      <div class="container-fluid containers-contents">
-        <h1 class="text-center title-cl">DIRETORIA</h1>
-        <div class="row row-cols-lg-4 directorship-box">
-          <div class="col col-directorship-box">
-            <img
-              class="directorship-img"
-              src="./assets/images/Foto_pastor-modified.png"
-              alt="foto-pastor"
-            />
-            <h2 class="text-center">Pastor Claudemir Luquiari</h2>
+      <div class="container-fluid containers-contents container-carousel">
+        <div
+          id="directorship-carousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="5000"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#directorship-carousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#directorship-carousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
           </div>
-          <div class="col col-directorship-box">
-            <img
-              class="directorship-img"
-              src="./assets/images/Foto_pastor-modified.png"
-              alt="foto-pastor"
-            />
-            <h2 class="text-center">Presbítero<br />Cebinel</h2>
+          <h1 class="text-center title-cl">DIRETORIA</h1>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row row-cols-lg-4 directorship-box">
+                <div class="col col-directorship-box">
+                  <img
+                    class="directorship-img"
+                    src="./assets/images/Foto_pastor-modified.png"
+                    alt="foto-pastor"
+                  />
+                  <h2 class="text-center">Pastor Claudemir Luquiari</h2>
+                </div>
+                <div class="col col-directorship-box">
+                  <img
+                    class="directorship-img"
+                    src="./assets/images/Foto_pastor-modified.png"
+                    alt="foto-pastor"
+                  />
+                  <h2 class="text-center">Presbítero<br />Cebinel</h2>
+                </div>
+                <div class="col col-directorship-box">
+                  <img
+                    class="directorship-img"
+                    src="./assets/images/Foto_pastor-modified.png"
+                    alt="foto-pastor"
+                  />
+                  <h2 class="text-center">Presbítero<br />Sílvio</h2>
+                </div>
+                <div class="col col-directorship-box">
+                  <img
+                    class="directorship-img"
+                    src="./assets/images/Foto_pastor-modified.png"
+                    alt="foto-pastor"
+                  />
+                  <h2 class="text-center">Presbítero<br />Denilson</h2>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row row-cols-lg-4 directorship-box">
+                <div class="col col-directorship-box">
+                  <img
+                    class="directorship-img"
+                    src="./assets/images/Foto_pastor-modified.png"
+                    alt="foto-pastor"
+                  />
+                  <h2 class="text-center">Pastor Claudemir Luquiari</h2>
+                </div>
+                <div class="col col-directorship-box">
+                  <img
+                    class="directorship-img"
+                    src="./assets/images/Foto_pastor-modified.png"
+                    alt="foto-pastor"
+                  />
+                  <h2 class="text-center">Presbítero<br />Denilson</h2>
+                </div>
+                <div class="col col-directorship-box">
+                  <img
+                    class="directorship-img"
+                    src="./assets/images/Foto_pastor-modified.png"
+                    alt="foto-pastor"
+                  />
+                  <h2 class="text-center">Presbítero<br />Denilson</h2>
+                </div>
+                <div class="col col-directorship-box">
+                  <img
+                    class="directorship-img"
+                    src="./assets/images/Foto_pastor-modified.png"
+                    alt="foto-pastor"
+                  />
+                  <h2 class="text-center">Presbítero<br />Denilson</h2>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col col-directorship-box">
-            <img
-              class="directorship-img"
-              src="./assets/images/Foto_pastor-modified.png"
-              alt="foto-pastor"
-            />
-            <h2 class="text-center">Presbítero<br />Sílvio</h2>
-          </div>
-          <div class="col col-directorship-box">
-            <img
-              class="directorship-img"
-              src="./assets/images/Foto_pastor-modified.png"
-              alt="foto-pastor"
-            />
-            <h2 class="text-center">Presbítero<br />Denilson</h2>
-          </div>
+          <button
+            class="carousel-control-prev carousel-btns"
+            type="button"
+            data-bs-target="#directorship-carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next carousel-btns"
+            type="button"
+            data-bs-target="#directorship-carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
     </section>
@@ -306,39 +406,38 @@
     <!-- Meet Us -->
     <section id="meet-us" class="background-cl">
       <div class="container-fluid containers-contents meet-us-container">
-        <div class="row row-cols-lg-1 meet-us-box justify-content-center">
-          <div class="col col-lg-12 col-meet-us-box">
-            <div class="container-meet-us-box">
-              <ul>
-                <li>
-                  <h2 class="h2-uc text-center meet-us-title text-danger">
-                    LOCALIZAÇÃO E CONTATO
-                  </h2>
-                </li>
-                <li class="text-center">
-                  <i class="fas fa-map-marked-alt icon-meet-us"></i>
-                  <h3 class="display-meet-us-box">Endereço:</h3>
-                  <p class="p-meet-us-box display-meet-us-box">
-                    Rua Amador Bueno, 35
-                  </p>
-                </li>
-                <li class="text-center mb-5">
-                  <i class="fas fa-phone-alt icon-meet-us"></i>
-                  <h3 class="display-meet-us-box">Telefone:</h3>
-                  <p class="p-meet-us-box display-meet-us-box">3623-1240</p>
-                </li>
-                <li class="text-center">
-                  <a href="#worship">
-                    <button
-                      type="button"
-                      class="btn btn-lg btn-dark schedule-button"
-                    >
-                      HORÁRIOS
-                    </button>
-                  </a>
-                </li>
-              </ul>
-            </div>
+        <div class="meet-us-box justify-content-center">
+          <div class="container-meet-us-box">
+            <ul>
+              <li>
+                <h2 class="h2-uc text-center meet-us-title text-danger">
+                  LOCALIZAÇÃO E CONTATO
+                </h2>
+              </li>
+              <h2 class="text-center text-primary mb-5">SEDE</h2>
+              <li class="text-center">
+                <i class="fas fa-map-marked-alt icon-meet-us"></i>
+                <h3 class="display-meet-us-box">Endereço:</h3>
+                <p class="p-meet-us-box display-meet-us-box">
+                  Rua Amador Bueno, 35
+                </p>
+              </li>
+              <li class="text-center mb-5">
+                <i class="fas fa-phone-alt icon-meet-us"></i>
+                <h3 class="display-meet-us-box">Telefone:</h3>
+                <p class="p-meet-us-box display-meet-us-box">3623-1240</p>
+              </li>
+              <li class="text-center">
+                <a href="#worship">
+                  <button
+                    type="button"
+                    class="btn btn-lg btn-dark schedule-button"
+                  >
+                    HORÁRIOS
+                  </button>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -351,11 +450,13 @@
           href="https://www.facebook.com/igrejapresbiterianadearacatuba/"
           target="_blank"
           class="footer-link"
-          ><i class="fab fa-facebook-f icon-footer"></i
-          >&nbsp;&nbsp;Facebook</a
+          ><i class="fab fa-facebook-f icon-footer"></i>&nbsp;&nbsp;Facebook</a
         >
       </p>
-      <p class="mt-4">© Copyright 2021 Igreja Presbiteriana de Araçatuba. Todos Direitos Reservados</p>
+      <p class="mt-4">
+        © Copyright 2021 Igreja Presbiteriana de Araçatuba. Todos Direitos
+        Reservados
+      </p>
       <p class="text-secondary">Desenvolvido por JeanPCB</p>
     </footer>
 

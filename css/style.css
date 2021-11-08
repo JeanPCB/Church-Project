@@ -264,13 +264,17 @@ body::-webkit-scrollbar-thumb {
 }
 
 .col-worship-box {
-	padding: 80px 120px 20px;
+	padding: 80px 60px 20px;
 }
 
 .worship-box-img {
-	width: 300px;
+	width: 200px;
 	display: block;
 	margin: 30px auto;
+}
+
+.h3-worship {
+	word-spacing: 10px;
 }
 
 /* Colored Section */
@@ -289,14 +293,29 @@ body::-webkit-scrollbar-thumb {
 	word-spacing: 10px;
 }
 
+/* Carousel Directorship */ 
+
+.container-carousel {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.carousel-btns {
+	width: 10%;
+}
+
 /* Directorship */
 
 .directorship-box {
-	padding: 120px 0 100px;
+	padding: 100px 10%;
+}
+
+.col-directorship-box {
+	padding: 0;
 }
 
 .directorship-img {
-	width: 200px;
+	width: 170px;
 	display: block;
 	margin: 0 auto 40px auto;
 }
@@ -345,7 +364,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .container-meet-us-box {
-	margin-top: 30px;
+	margin: 30px 0;
 	padding: 80px;
 	background-color: rgba(255, 255, 255, 0.6);
 	word-spacing: 5px;
