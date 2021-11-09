@@ -98,6 +98,7 @@ body::-webkit-scrollbar-thumb {
 
 .title-box h1 {
     font-size: 5rem;
+	letter-spacing: 10px;
 }
 
 .title-box h2 {
@@ -256,6 +257,7 @@ body::-webkit-scrollbar-thumb {
 	text-align: justify;
 	line-height: 2;
 	color: #8f8f8f;
+	word-spacing: 5px;
 }
 
 /* Worship Section */
@@ -354,10 +356,6 @@ body::-webkit-scrollbar-thumb {
 
 /* Meet Us */
 
-#meet-us {
-
-}
-
 .meet-us-container-1 {
 	padding: 7% 0;
 	background: url(../assets/images/783261.png);
@@ -422,4 +420,93 @@ body::-webkit-scrollbar-thumb {
 .footer-link {
 	font-size: 30px;
 	text-decoration: none;
+}
+
+
+/* Mobile Version */
+
+@media screen and (max-width: 991px) {
+
+	/* Navbar */
+	
+	.navbar {
+		padding: 10px;
+	}
+
+	.logo-navbar {
+		width: 100px;
+	}
+
+	.navbar-nav {
+		margin: auto !important;
+	}
+
+	/* Title */
+
+	.title-box {
+		padding-top: 20px;
+	}
+
+	.title-box h3 {
+		font-size: 1rem;
+		margin-bottom: 10px;
+	}
+
+	.title-box h1 {
+		font-size: 3.5rem;
+	}
+
+	.title-box h2 {
+		font-size: 1.5rem;
+		margin-bottom: 10px;
+	}
+
+	/* Call Button */
+
+	.call-button {
+		font-size: 1rem;
+		margin-top: 25px;
+	}
+
+	/* Scroll Button */
+
+	.scroll-btn {
+		margin: 40px 0 80px;
+	}
+
+	.scroll-btn .mouse {
+		border-radius: 5px;
+	}
+
+	.scroll-btn .mouse > * {
+		animation: ani-mouse 2.5s reverse infinite;
+	}
+
+	/* Uncolored Section */
+
+	.title-uc {
+		font-size: 3rem;
+	}
+
+	.h2-uc {
+		font-size: 2rem;
+	}
+
+	/* Worship Section */
+
+	.col-worship-box {
+		padding-top: 50px;
+	}
+
+	.h3-worship {
+		padding-top: 0 !important;
+	}
+
+	/* DO AFTER */
+	.about-us-img {
+		width: 200px;
+	}
+	.meet-us-title {
+		font-size: 3rem;
+	}
 }
