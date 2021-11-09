@@ -427,12 +427,6 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 1024px) {
 
-	/* Container Fluid  */
-
-	.container-fluid {
-    	padding: 3% 4% 7%;
-	}
-
 	/* Navbar */
 	
 	.navbar {
