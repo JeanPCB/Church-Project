@@ -432,6 +432,12 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 1024px) {
 
+	/* Page Start */
+
+	#title {
+		background-attachment: local;
+	}
+
 	/* Navbar */
 	
 	.navbar {
