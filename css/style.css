@@ -425,7 +425,13 @@ body::-webkit-scrollbar-thumb {
 
 /* Mobile Version */
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1024px) {
+
+	/* Container Fluid  */
+
+	.container-fluid {
+    	padding: 3% 4% 7%;
+	}
 
 	/* Navbar */
 	
@@ -448,12 +454,13 @@ body::-webkit-scrollbar-thumb {
 	}
 
 	.title-box h3 {
-		font-size: 1rem;
+		font-size: 0.8rem;
 		margin-bottom: 10px;
 	}
 
 	.title-box h1 {
 		font-size: 3.5rem;
+		margin-bottom: 8px;
 	}
 
 	.title-box h2 {
