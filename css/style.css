@@ -31,6 +31,7 @@ body::-webkit-scrollbar-thumb {
     background: url(../assets/images/cross_background.jpg);
     background-attachment: fixed;
     background-size: cover;
+	background-repeat: no-repeat;
 }
 
 /* Container Fluid  */
@@ -429,12 +430,14 @@ body::-webkit-scrollbar-thumb {
 
 /* Mobile Version */
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
 	/* Fixing Backgrounds */
 
 	#title {
+		background: url(../assets/images/cross_mobile.png);
 		background-attachment: local;
+		background-repeat: no-repeat;
 	}
 
 	.background-uc {
