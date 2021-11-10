@@ -433,6 +433,9 @@ body::-webkit-scrollbar-thumb {
 
 	/* Url Bar Bug */
 
+	html {
+		min-height: 120vh !important;
+	}
 
 	/* Navbar */
 	
