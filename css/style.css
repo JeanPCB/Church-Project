@@ -458,12 +458,13 @@ body::-webkit-scrollbar-thumb {
 	}
 
 	.background-uc {
-		background-image: url(../assets/images/background-uc-mb-4.jpg);
+		background: url(../assets/images/background-cl-mb-edit.jpg);
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 	}
 
 	.background-cl {
+		background-image: url(../assets/images/background-uc-mb-edit.jpg);
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 	}
