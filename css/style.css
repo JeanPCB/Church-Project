@@ -275,7 +275,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .p-uc {
-	font-size: 20px;
+	font-size: 1.25rem;
 	text-align: justify;
 	line-height: 2;
 	color: #8f8f8f;
@@ -479,6 +479,12 @@ body::-webkit-scrollbar-thumb {
 		background-repeat: no-repeat;
 	}
 
+	/* Container Fluid */
+
+	.container-fluid {
+		padding-bottom: 3%;
+	}
+
 	/* Navbar */
 
 	.navbar {
@@ -535,6 +541,12 @@ body::-webkit-scrollbar-thumb {
 		animation: ani-mouse 2.5s reverse infinite;
 	}
 
+	/* Containers Contents */
+
+	.containers-contents {
+		padding: 15% 8%;
+	}
+
 	/* Uncolored Section */
 
 	.title-uc {
@@ -545,6 +557,11 @@ body::-webkit-scrollbar-thumb {
 		font-size: 2rem;
 	}
 
+	.p-uc {
+		font-size: 1.1rem;
+		color: #797979;
+	}
+
 	/* Worship Section */
 
 	.col-worship-box {
@@ -553,6 +570,13 @@ body::-webkit-scrollbar-thumb {
 
 	.h3-worship {
 		padding-top: 0 !important;
+	}
+
+	/* Worship Section */
+
+	.col-worship-box {
+		padding: 0;
+		padding-top: 50px;
 	}
 
 	/* DO AFTER */
