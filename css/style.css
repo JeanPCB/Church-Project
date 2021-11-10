@@ -1,8 +1,10 @@
-html {
-	width: 100% !important;
-	height: 100% !important;
+html { 
+	height: 100vh; 
 }
 
+body { 
+	height: 100%; 
+}
 /* html, body {
 	margin: 0;
 	padding: 0;
@@ -36,7 +38,6 @@ body::-webkit-scrollbar-thumb {
     background: url(../assets/images/cross_background.jpg);
     background-attachment: fixed;
     background-size: cover;
-	height: 100vh;
 }
 
 /* Container Fluid  */
