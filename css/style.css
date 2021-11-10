@@ -441,19 +441,23 @@ body::-webkit-scrollbar-thumb {
 	}
 
 	.background-uc {
-		background-attachment: local;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
 	}
 
 	.background-cl {
-		background-attachment: local;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
 	}
 
 	.meet-us-container-1 {
-		background-attachment: local;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
 	}
 
 	.meet-us-container-2 {
-		background-attachment: local;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
 	}
 
 	/* Navbar */
