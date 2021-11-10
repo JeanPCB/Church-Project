@@ -11,7 +11,7 @@ function scrollFunction() {
     document.body.scrollTop > 20 ||
     document.documentElement.scrollTop > 20
   ) {
-    mybutton.style.display = "inline-block";
+    mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
   }
