@@ -436,7 +436,7 @@ body::-webkit-scrollbar-thumb {
 
 	#title {
 		background: url(../assets/images/cross_background.jpg);
-		background-attachment: local;
+		background-attachment: fixed;
 		background-repeat: no-repeat;
 	}
 
