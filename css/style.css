@@ -1,21 +1,22 @@
-/* html, body {
-	margin: 0;
-	padding: 0;
+body {
+	font-family: 'Secular One', sans-serif;
 }
 
-html {
+/* Thin Scrollbar */
+
+/* html {
     --scrollbarBG: #CFD8DC;
     --thumbBG: #8f8f8f;
 }
 body::-webkit-scrollbar {
     width: 11px;
-} */
-body {
-    /* scrollbar-width: thin;
-    scrollbar-color: var(--thumbBG) var(--scrollbarBG); */
-    font-family: 'Secular One', sans-serif;
 }
-/* body::-webkit-scrollbar-track {
+
+body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
     background: var(--scrollbarBG);
 }
 body::-webkit-scrollbar-thumb {
@@ -429,6 +430,20 @@ body::-webkit-scrollbar-thumb {
 /* Mobile Version */
 
 @media screen and (max-width: 1024px) {
+
+	/* Url Bar Bug */
+
+	html {
+		overflow: hidden;
+	  }
+	  
+	body {
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		overflow-y: auto;
+		-webkit-overflow-scrolling: touch;
+	}
 
 	/* Navbar */
 	
