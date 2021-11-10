@@ -431,10 +431,26 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-width: 1024px) {
 
-	/* Url Bar Bug */
+	/* Fixing Backgrounds */
 
-	html {
-		min-height: 120vh !important;
+	#title {
+		background-attachment: local;
+	}
+
+	.background-uc {
+		background-attachment: local;
+	}
+
+	.background-cl {
+		background-attachment: local;
+	}
+
+	.meet-us-container-1 {
+		background-attachment: local;
+	}
+
+	.meet-us-container-2 {
+		background-attachment: local;
 	}
 
 	/* Navbar */
