@@ -435,7 +435,7 @@ body::-webkit-scrollbar-thumb {
 	/* Fixing Backgrounds */
 
 	#title {
-		background: url(../assets/images/cross_mobile.png);
+		background: url(../assets/images/cross_background.jpg);
 		background-attachment: local;
 		background-repeat: no-repeat;
 	}
