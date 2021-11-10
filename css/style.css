@@ -429,21 +429,10 @@ body::-webkit-scrollbar-thumb {
 
 /* Mobile Version */
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
 
 	/* Url Bar Bug */
 
-	html {
-		overflow: hidden;
-	  }
-	  
-	body {
-		width: 100%;
-		height: 100%;
-		position: fixed;
-		overflow-y: auto;
-		-webkit-overflow-scrolling: touch;
-	}
 
 	/* Navbar */
 	
