@@ -31,6 +31,7 @@ body::-webkit-scrollbar-thumb {
     background: url(../assets/images/cross_background.jpg);
     background-attachment: fixed;
     background-size: cover;
+	height: 100vh;
 }
 
 /* Container Fluid  */
@@ -430,12 +431,6 @@ body::-webkit-scrollbar-thumb {
 /* Mobile Version */
 
 @media screen and (max-width: 1024px) {
-
-	/* Page Start */
-
-	#title {
-		background-attachment: local;
-	}
 
 	/* Navbar */
 	
