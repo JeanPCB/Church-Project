@@ -4,12 +4,12 @@ body {
 
 /* Thin Scrollbar */
 
-/* html {
+html {
     --scrollbarBG: #CFD8DC;
     --thumbBG: #8f8f8f;
 }
 body::-webkit-scrollbar {
-    width: 11px;
+    width: 14px;
 }
 
 body {
@@ -23,7 +23,7 @@ body::-webkit-scrollbar-thumb {
     background-color: var(--thumbBG) ;
     border-radius: 6px;
     border: 3px solid var(--scrollbarBG);
-} */
+}
 
 /* Page Start */
 
@@ -394,6 +394,14 @@ body::-webkit-scrollbar-thumb {
 	background-attachment: fixed;
 }
 
+.meet-us-container-3 {
+	padding: 7% 0;
+	background: url(../assets/images/meet-us-3.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
 .container-meet-us-box {
 	margin: 30px 0;
 	padding: 80px;
@@ -544,7 +552,7 @@ body::-webkit-scrollbar-thumb {
 	/* Containers Contents */
 
 	.containers-contents {
-		padding: 15% 8%;
+		padding: 20% 8%;
 	}
 
 	/* Uncolored Section */
@@ -563,6 +571,10 @@ body::-webkit-scrollbar-thumb {
 	}
 
 	/* Worship Section */
+
+	#worship .containers-contents {
+		padding-bottom: 15%;
+	}
 
 	.col-worship-box {
 		padding-top: 50px;
@@ -586,7 +598,7 @@ body::-webkit-scrollbar-thumb {
 	/* Directorship Section */
 
 	#directorship .containers-contents {
-		padding: 15% 2%;
+		padding: 20% 2%;
 	}
 
 	.directorship-box {
@@ -607,10 +619,81 @@ body::-webkit-scrollbar-thumb {
 		display: none;
 	}
 
-	/* DO AFTER */
-	.about-us-img {
-		width: 200px;
+	/* About Us */
+
+	.about-us-box {
+		padding-top: 50px;
 	}
+
+	.col-about-us-box {
+		padding-bottom: 70px;
+	}
+
+	.col-about-us-box-2 {
+		padding-bottom: 0;
+	}
+
+	.about-us-img {
+		width: 300px;
+		height: 220px;
+		border-radius: 3%;
+		float: none;
+		margin-bottom: 30px;
+	}
+
+	.about-us-box-title {
+		text-align: center;
+	}
+
+	.abt-img-2 {
+		margin-left: 0;
+	}
+
+	/* Meet Us Section */
+
+	#meet-us .containers-contents {
+		padding: 20% 0%;
+	}
+
+	.meet-us-title {
+		padding: 20px;
+		background: rgba(255, 255, 255, 0.5);
+	}
+
+	.container-meet-us-box {
+		background: rgba(255, 255, 255, 0.5);
+		padding: 40px;
+	}
+
+	#meet-us h2 {
+		margin-bottom: 40px !important;
+		font-size: 1.875rem;
+	}
+
+	#meet-us li {
+		margin-bottom: 0;
+	}
+
+	.p-meet-us-box {
+		display: block;
+		line-height: 3;
+	}
+
+	#meet-li-2 {
+		margin-bottom: 0 !important;
+	}
+
+	.schedule-button {
+		width: 100%;
+	}
+
+	/* Footer Section */
+
+	.anchor-footer {
+		margin: 10px 0 30px !important;
+	}
+
+	/* DO AFTER */
 
 	.meet-us-title {
 		font-size: 3rem;
