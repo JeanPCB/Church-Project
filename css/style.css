@@ -487,6 +487,18 @@ body::-webkit-scrollbar-thumb {
 		background-repeat: no-repeat;
 	}
 
+	.meet-us-container-3 {
+		background-attachment: local;
+		background-repeat: no-repeat;
+	}
+
+	/* Back to Top Button */
+
+	#btn-back-to-top {
+		bottom: 10px;
+		right: 10px;
+	}
+
 	/* Container Fluid */
 
 	.container-fluid {
@@ -524,7 +536,7 @@ body::-webkit-scrollbar-thumb {
 	}
 
 	.title-box h2 {
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 		margin-bottom: 10px;
 	}
 
@@ -552,22 +564,22 @@ body::-webkit-scrollbar-thumb {
 	/* Containers Contents */
 
 	.containers-contents {
-		padding: 20% 8%;
+		padding: 15% 8%;
 	}
 
 	/* Uncolored Section */
 
 	.title-uc {
-		font-size: 3rem;
+		font-size: 2.5rem;
 	}
 
 	.h2-uc {
-		font-size: 2rem;
+		font-size: 1.8rem;
 	}
 
 	.p-uc {
-		font-size: 1.1rem;
-		color: #797979;
+		font-size: 1rem;
+		color: #616161;
 	}
 
 	/* Worship Section */
@@ -580,8 +592,14 @@ body::-webkit-scrollbar-thumb {
 		padding-top: 50px;
 	}
 
+	.worship-box-img {
+		width: 150px;
+		height: 150px;
+	}
+
 	.h3-worship {
 		padding-top: 0 !important;
+		font-size: 1.4rem;
 	}
 
 	.col-worship-box {
@@ -592,31 +610,30 @@ body::-webkit-scrollbar-thumb {
 	/* Colored Section */
 
 	.title-cl {
-		font-size: 3rem;
+		font-size: 2.5rem;
 	}
 
 	/* Directorship Section */
 
 	#directorship .containers-contents {
-		padding: 20% 2%;
+		padding: 15% 2%;
 	}
 
 	.directorship-box {
 		padding-top: 50px;
+		padding-bottom: 50px;
 	}
 
 	.col-directorship-box-small {
 		margin-bottom: 0px;
 	}
 
-	/* Carousel Buttons */
-
-	.carousel-control-next-icon {
-		display: none;
+	.directorship-img {
+		width: 100px;
 	}
 
-	.carousel-control-prev-icon {
-		display: none;
+	.col-directorship-box h2 {
+		font-size: 1.2rem;
 	}
 
 	/* About Us */
@@ -658,6 +675,7 @@ body::-webkit-scrollbar-thumb {
 	.meet-us-title {
 		padding: 20px;
 		background: rgba(255, 255, 255, 0.5);
+		font-size: 2.5rem;
 	}
 
 	.container-meet-us-box {
@@ -667,16 +685,22 @@ body::-webkit-scrollbar-thumb {
 
 	#meet-us h2 {
 		margin-bottom: 40px !important;
-		font-size: 1.875rem;
+		font-size: 2rem;
 	}
 
 	#meet-us li {
 		margin-bottom: 0;
 	}
 
+	h3.display-meet-us-box{
+		font-weight: 900;
+	}
+
 	.p-meet-us-box {
 		display: block;
-		line-height: 3;
+		line-height: 2;
+		margin-bottom: 30px;
+		font-size: 1.2rem;
 	}
 
 	#meet-li-2 {
@@ -693,9 +717,15 @@ body::-webkit-scrollbar-thumb {
 		margin: 10px 0 30px !important;
 	}
 
-	/* DO AFTER */
+	.footer-link {
+		font-size: 1.5rem;
+	}
 
-	.meet-us-title {
-		font-size: 3rem;
+	.copyright-p {
+		font-size: 0.8rem;
+	}
+
+	.my-signature {
+		font-size: 0.7rem;
 	}
 }
