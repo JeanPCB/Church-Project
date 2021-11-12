@@ -63,7 +63,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .logo-navbar {
-	width: 150px;
+	width: 170px;
 }
 
 .navbar-nav li {
@@ -98,7 +98,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .title-box h3 {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 }
 
 .title-box h1 {
@@ -107,7 +107,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .title-box h2 {
-	font-size: 2.5rem;
+	font-size: 2rem;
+	word-spacing: 10px;
 }
 
 .call-button {
@@ -263,19 +264,19 @@ body::-webkit-scrollbar-thumb {
 }
 
 .title-uc {
-	font-size: 4rem;
+	font-size: 3rem;
 	text-decoration: underline;
 	color: #015B41;
 	word-spacing: 10px;
 }
 
 .h2-uc {
-	font-size: 2.5rem;
+	font-size: 2rem;
 	word-spacing: 10px;
 }
 
 .p-uc {
-	font-size: 1.25rem;
+	font-size: 1.1rem;
 	text-align: justify;
 	line-height: 2;
 	color: #8f8f8f;
@@ -299,6 +300,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .h3-worship {
+	font-size: 1.4rem;
 	word-spacing: 10px;
 }
 
@@ -313,7 +315,7 @@ body::-webkit-scrollbar-thumb {
 
 .title-cl {
 	text-decoration: underline;
-	font-size: 4rem;
+	font-size: 3rem;
 	color: #fff;
 	word-spacing: 10px;
 }
@@ -345,6 +347,7 @@ body::-webkit-scrollbar-thumb {
 	display: block;
 	margin: 0 auto 30px auto;
 }
+
 
 /* About Us */
 
@@ -415,6 +418,7 @@ body::-webkit-scrollbar-thumb {
 
 .meet-us-title {
 	margin-bottom: 70px;
+	font-size: 3rem;
 }
 
 .p-meet-us-box {
@@ -444,6 +448,8 @@ body::-webkit-scrollbar-thumb {
 	width: 100%;
 	border-radius: 0 !important;
 }
+
+
 
 .schedules-extra {
 	margin: auto;
@@ -546,17 +552,21 @@ body::-webkit-scrollbar-thumb {
 	}
 
 	.logo-navbar {
-		width: 100px;
+		width: 120px;
 	}
 
 	.navbar-nav {
 		margin: auto !important;
 	}
 
+	.nav-link {
+		font-size: 1.1rem;
+	}
+
 	/* Title */
 
 	.title-box {
-		padding-top: 20px;
+		padding-top: 40px;
 	}
 
 	.title-box h3 {
@@ -566,7 +576,7 @@ body::-webkit-scrollbar-thumb {
 
 	.title-box h1 {
 		font-size: 3.3rem;
-		margin-bottom: 8px;
+		margin-bottom: 12px;
 	}
 
 	.title-box h2 {
@@ -588,7 +598,7 @@ body::-webkit-scrollbar-thumb {
 	/* Scroll Button */
 
 	.scroll-btn {
-		margin: 40px 0 80px;
+		margin: 60px 0 80px;
 	}
 
 	.scroll-btn .mouse {
