@@ -418,7 +418,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .p-meet-us-box {
-	font-size: 24px;
+	font-size: 1.5rem;
 	margin-left: 5px;
 }
 
@@ -440,6 +440,40 @@ body::-webkit-scrollbar-thumb {
 	width: 30%;
 }
 
+.schedule-button-extra {
+	width: 100%;
+	border-radius: 0 !important;
+}
+
+.schedules-extra {
+	margin: auto;
+	border:solid 2px rgb(99, 99, 99);
+	border-top: none;
+	border-radius: 0.3rem;
+	border-color: #212529;
+	width: 30%;
+}
+
+#schedules li {
+	line-height: 1 !important;
+	margin: 0 ;
+	font-size: 1.25rem;
+}
+
+.sch-li-title {
+	font-size: 1.5rem !important;
+	margin: 30px !important;
+	font-weight: 900;
+}
+
+.sch-li-sbt {
+	margin-bottom: 30px !important;
+}
+
+.button-sede {
+	width: 80%;
+}
+
 /* Footer */
 
 #footer {
@@ -448,14 +482,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 .footer-link {
-	font-size: 30px;
+	font-size: 1.875rem;
 	text-decoration: none;
 }
 
 
 /* Mobile Version (Smartphone) */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
 
 	/* Fixing Backgrounds */
 
@@ -655,6 +689,8 @@ body::-webkit-scrollbar-thumb {
 		height: 220px;
 		border-radius: 3%;
 		float: none;
+		display: block;
+		margin: auto;
 		margin-bottom: 30px;
 	}
 
@@ -663,7 +699,7 @@ body::-webkit-scrollbar-thumb {
 	}
 
 	.abt-img-2 {
-		margin-left: 0;
+		margin-left: auto;
 	}
 
 	/* Meet Us Section */
@@ -708,6 +744,10 @@ body::-webkit-scrollbar-thumb {
 	}
 
 	.schedule-button {
+		width: 100%;
+	}
+
+	.schedules-extra {
 		width: 100%;
 	}
 
