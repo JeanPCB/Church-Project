@@ -560,18 +560,22 @@ body::-webkit-scrollbar-thumb {
 	}
 
 	.title-box h3 {
-		font-size: 0.8rem;
+		font-size: 0.6rem;
 		margin-bottom: 10px;
 	}
 
 	.title-box h1 {
-		font-size: 3.5rem;
+		font-size: 3.3rem;
 		margin-bottom: 8px;
 	}
 
 	.title-box h2 {
-		font-size: 1.2rem;
+		font-size: 1rem;
 		margin-bottom: 10px;
+	}
+
+	.see-more p {
+		font-size: 0.6rem;
 	}
 
 	/* Call Button */
@@ -604,15 +608,15 @@ body::-webkit-scrollbar-thumb {
 	/* Uncolored Section */
 
 	.title-uc {
-		font-size: 2.5rem;
+		font-size: 2rem;
 	}
 
 	.h2-uc {
-		font-size: 1.8rem;
+		font-size: 1.4rem;
 	}
 
 	.p-uc {
-		font-size: 1rem;
+		font-size: 0.8rem;
 		color: #616161;
 	}
 
@@ -633,7 +637,7 @@ body::-webkit-scrollbar-thumb {
 
 	.h3-worship {
 		padding-top: 0 !important;
-		font-size: 1.4rem;
+		font-size: 1rem;
 	}
 
 	.col-worship-box {
@@ -644,7 +648,7 @@ body::-webkit-scrollbar-thumb {
 	/* Colored Section */
 
 	.title-cl {
-		font-size: 2.5rem;
+		font-size: 2rem;
 	}
 
 	/* Directorship Section */
@@ -667,7 +671,7 @@ body::-webkit-scrollbar-thumb {
 	}
 
 	.col-directorship-box h2 {
-		font-size: 1.2rem;
+		font-size: 1rem;
 	}
 
 	/* About Us */
@@ -711,7 +715,7 @@ body::-webkit-scrollbar-thumb {
 	.meet-us-title {
 		padding: 20px;
 		background: rgba(255, 255, 255, 0.5);
-		font-size: 2.5rem;
+		font-size: 2rem;
 	}
 
 	.container-meet-us-box {
@@ -721,7 +725,7 @@ body::-webkit-scrollbar-thumb {
 
 	#meet-us h2 {
 		margin-bottom: 40px !important;
-		font-size: 2rem;
+		font-size: 1.4rem;
 	}
 
 	#meet-us li {
@@ -730,25 +734,38 @@ body::-webkit-scrollbar-thumb {
 
 	h3.display-meet-us-box{
 		font-weight: 900;
+		font-size: 1.2rem;
 	}
 
 	.p-meet-us-box {
 		display: block;
 		line-height: 2;
 		margin-bottom: 30px;
-		font-size: 1.2rem;
+		font-size: 1rem;
 	}
 
 	#meet-li-2 {
 		margin-bottom: 0 !important;
 	}
 
-	.schedule-button {
+	.schedules-extra {
 		width: 100%;
 	}
 
-	.schedules-extra {
-		width: 100%;
+	.schedule-button-extra {
+		font-size: 1rem;
+	}
+
+	.sch-li-title {
+		font-size: 1.2rem !important;
+	}
+
+	#schedules li {
+		font-size: 1rem;
+	}
+
+	.button-sede {
+		font-size: 1rem;
 	}
 
 	/* Footer Section */
