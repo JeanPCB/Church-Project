@@ -555,7 +555,7 @@ body::-webkit-scrollbar-thumb {
 
 	#insta-button {
 		bottom: 10px;
-		right: 10px;
+		left: 10px;
 	}
 
 	/* Container Fluid */
