@@ -58,8 +58,8 @@ body::-webkit-scrollbar-thumb {
 
 #insta-button {
 	position: fixed;
-	bottom: 20px;
-	left: 20px;
+	bottom: 10px;
+	left: 10px;
 	display: none;
 	z-index: 1;
 	background: none;
@@ -554,8 +554,8 @@ body::-webkit-scrollbar-thumb {
 	/* Instagram Button */
 
 	#insta-button {
-		bottom: 10px;
-		left: 10px;
+		bottom: 2px;
+		left: 2px;
 	}
 
 	/* Container Fluid */
