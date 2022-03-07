@@ -54,6 +54,18 @@ body::-webkit-scrollbar-thumb {
 	z-index: 1;
 }
 
+/* Instagram Button */
+
+#insta-button {
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	display: none;
+	z-index: 1;
+	background: none;
+	border: none;
+}
+
 /* Nav Bar */
 
 .navbar {
@@ -535,6 +547,13 @@ body::-webkit-scrollbar-thumb {
 	/* Back to Top Button */
 
 	#btn-back-to-top {
+		bottom: 10px;
+		right: 10px;
+	}
+
+	/* Instagram Button */
+
+	#insta-button {
 		bottom: 10px;
 		right: 10px;
 	}
