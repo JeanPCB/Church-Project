@@ -7,6 +7,7 @@ body {
 html {
     --scrollbarBG: #CFD8DC;
     --thumbBG: #8f8f8f;
+	scroll-behavior: smooth;
 }
 body::-webkit-scrollbar {
     width: 14px;
@@ -282,19 +283,19 @@ body::-webkit-scrollbar-thumb {
 }
 
 .title-uc {
-	font-size: 3rem;
+	font-size: 2.2rem;
 	text-decoration: underline;
 	color: #015B41;
 	word-spacing: 10px;
 }
 
 .h2-uc {
-	font-size: 2rem;
+	font-size: 1.8rem;
 	word-spacing: 10px;
 }
 
 .p-uc {
-	font-size: 1.1rem;
+	font-size: 1rem;
 	text-align: justify;
 	line-height: 2;
 	color: #8f8f8f;
@@ -312,13 +313,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 .worship-box-img {
-	width: 200px;
+	width: 180px;
 	display: block;
 	margin: 30px auto;
 }
 
 .h3-worship {
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	word-spacing: 10px;
 }
 
@@ -333,7 +334,7 @@ body::-webkit-scrollbar-thumb {
 
 .title-cl {
 	text-decoration: underline;
-	font-size: 3rem;
+	font-size: 2.2rem;
 	color: #fff;
 	word-spacing: 10px;
 }
@@ -364,6 +365,10 @@ body::-webkit-scrollbar-thumb {
 	width: 170px;
 	display: block;
 	margin: 0 auto 30px auto;
+}
+
+.names-directorship {
+	font-size: 1.8rem;
 }
 
 
@@ -436,7 +441,7 @@ body::-webkit-scrollbar-thumb {
 
 .meet-us-title {
 	margin-bottom: 70px;
-	font-size: 3rem;
+	font-size: 2.2rem;
 }
 
 .p-meet-us-box {
@@ -605,7 +610,7 @@ body::-webkit-scrollbar-thumb {
 	/* Title */
 
 	#title-box {
-		padding: 5rem 0 0;
+		padding: 4rem 0 0;
 	}
 
 	.title-box h3 {
