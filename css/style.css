@@ -575,7 +575,7 @@ body::-webkit-scrollbar-thumb {
 	/* Back to Top Button */
 
 	.btn-back-top-show, .btn-back-top-hidden{
-		bottom: 10px;
+		bottom: 9px;
 		right: 10px;
 	}
 
