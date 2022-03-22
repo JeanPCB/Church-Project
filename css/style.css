@@ -43,28 +43,46 @@ body::-webkit-scrollbar-thumb {
 
 /* Back to Top Button */
 
-#btn-back-to-top {
+.btn-back-top-hidden {
 	position: fixed;
 	bottom: 20px;
 	right: 20px;
-	display: none;
+	opacity: 0;
+	transform: translateY(150%);
+}
+
+.btn-back-top-show {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display: block;
 	border-radius: 100%;
 	color: #fff;
 	background-color: #8f8f8f;
 	opacity: 0.5;
-	z-index: 1;
+	z-index: 9999;
+	transform: translateY(0);
+	transition: transform 0.5s ease;
 }
 
 /* Instagram Button */
 
-#insta-button {
+.insta-btn-hidden {
 	position: fixed;
 	bottom: 15px;
 	left: 12px;
-	display: none;
+	opacity: 0;
+	transform: translateY(150%);
+}
+
+.insta-btn-show {
+	position: fixed;
+	bottom: 15px;
+	left: 12px;
 	z-index: 1;
 	background: none;
 	border: none;
+	transition: transform 0.5s ease;
 }
 
 .img-btn-insta {
@@ -557,14 +575,14 @@ body::-webkit-scrollbar-thumb {
 
 	/* Back to Top Button */
 
-	#btn-back-to-top {
+	.btn-back-top-show {
 		bottom: 10px;
 		right: 10px;
 	}
 
 	/* Instagram Button */
 
-	#insta-button {
+	.insta-btn-show {
 		bottom: 9px;
 		left: 4px;
 	}
@@ -609,12 +627,12 @@ body::-webkit-scrollbar-thumb {
 
 	/* Title */
 
-	#title-box {
-		padding: 2rem 0 0;
+	.title-box {
+		padding: 4rem 0 0;
 	}
 
-	#title-box-collapsed {
-		padding: 4rem 0 0;
+	.title-box-nav-show {
+		padding: 2rem 0 0; 
 	}
 
 	.title-box h3 {

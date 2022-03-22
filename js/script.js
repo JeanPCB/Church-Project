@@ -1,8 +1,8 @@
 //Get scroll top button
-let mybutton = document.getElementById("btn-back-to-top");
+const backTopBtn = document.querySelector("#btn-back-top");
 
 //Get insta button
-let instaButton = document.getElementById("insta-button");
+const instaBtn = document.querySelector("#insta-btn");
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
@@ -15,11 +15,11 @@ function scrollFunction() {
     document.body.scrollTop > 20 ||
     document.documentElement.scrollTop > 20
   ) {
-    mybutton.style.display = "block";
-    instaButton.style.display = "block";
+    backTopBtn.classList.replace("btn-back-top-hidden", "btn-back-top-show");
+    instaBtn.classList.replace("insta-btn-hidden", "insta-btn-show");
   } else {
-    mybutton.style.display = "none";
-    instaButton.style.display = "none";
+    backTopBtn.classList.replace("btn-back-top-show", "btn-back-top-hidden");
+    instaBtn.classList.replace("insta-btn-show", "insta-btn-hidden");
   }
 }
 
@@ -29,19 +29,13 @@ function backToTop() {
   document.documentElement.scrollTop = 0;
 }
 
-mybutton.addEventListener("click", backToTop);
+backTopBtn.addEventListener("click", backToTop);
 
 // Title Box Padding Toggle
-let titleBox = document.getElementById("title-box-collapsed");
+const titleBox = document.querySelector("#title-box");
 
 function titleBoxPad() {
-  if (
-    titleBox.id === "title-box-collapsed"
-  ) {
-    titleBox.id = "title-box"
-  } else {
-    titleBox.id = "title-box-collapsed"
-  }
+  titleBox.classList.toggle("title-box-nav-show");
 }
 
-document.getElementById("navbar-toggler-button").addEventListener("click", titleBoxPad);
+document.querySelector("#navbar-toggler-button").addEventListener("click", titleBoxPad);
