@@ -43,46 +43,45 @@ body::-webkit-scrollbar-thumb {
 
 /* Back to Top Button */
 
-.btn-back-top-hidden {
+.btn-back-top-hidden, .btn-back-top-show{
 	position: fixed;
 	bottom: 20px;
 	right: 20px;
-	opacity: 0;
-	transform: translateY(150%);
-}
-
-.btn-back-top-show {
-	position: fixed;
-	bottom: 20px;
-	right: 20px;
-	display: block;
 	border-radius: 100%;
 	color: #fff;
 	background-color: #8f8f8f;
 	opacity: 0.5;
 	z-index: 9999;
-	transform: translateY(0);
 	transition: transform 0.5s ease;
+}
+
+.btn-back-top-hidden {
+	transform: translateY(150%);
+}
+
+.btn-back-top-show {
+	transform: translateY(0);
 }
 
 /* Instagram Button */
 
-.insta-btn-hidden {
+.insta-btn-hidden, .insta-btn-show {
 	position: fixed;
 	bottom: 15px;
 	left: 12px;
-	opacity: 0;
+	opacity: 1;
+	z-index: 9999;
+	background: none;
+	border: none;
+	transition: transform 0.5s ease;
+}
+
+.insta-btn-hidden {
 	transform: translateY(150%);
 }
 
 .insta-btn-show {
-	position: fixed;
-	bottom: 15px;
-	left: 12px;
-	z-index: 1;
-	background: none;
-	border: none;
-	transition: transform 0.5s ease;
+	transform: translateY(0);
 }
 
 .img-btn-insta {
@@ -575,14 +574,14 @@ body::-webkit-scrollbar-thumb {
 
 	/* Back to Top Button */
 
-	.btn-back-top-show {
+	.btn-back-top-show, .btn-back-top-hidden{
 		bottom: 10px;
 		right: 10px;
 	}
 
 	/* Instagram Button */
 
-	.insta-btn-show {
+	.insta-btn-show, .insta-btn-hidden {
 		bottom: 9px;
 		left: 4px;
 	}
