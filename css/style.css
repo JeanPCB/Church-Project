@@ -45,7 +45,7 @@ body::-webkit-scrollbar-thumb {
 
 .btn-back-top-hidden, .btn-back-top-show{
 	position: fixed;
-	bottom: 20px;
+	bottom: 15px;
 	right: 20px;
 	border-radius: 100%;
 	color: #fff  !important;
