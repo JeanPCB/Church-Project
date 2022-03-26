@@ -98,7 +98,7 @@ body::-webkit-scrollbar-thumb {
 /* Nav Bar */
 
 .navbar {
-	padding: 30px 42px 0 0;
+	padding: 30px 25px 0 0;
 	margin: 0 auto;
 }
 
@@ -296,7 +296,7 @@ body::-webkit-scrollbar-thumb {
 /* Containers Contents */
 
 .containers-contents {
-	padding: 7% 5%;
+	padding: 4% 10%;
 }
 
 /* Uncolored Section */
