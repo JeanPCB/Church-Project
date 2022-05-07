@@ -8,4 +8,4 @@
 ✔ HTML <br>
 ✔ CSS
 
-🔗 <a href="https://jeanpcb.github.io/Landing-Page-Igreja/">Clica pra conferir</a> 😉
+🔗 <a href="https://jeanpcb.github.io/Landing-Page-Igreja/">Clique aqui pra conferir</a> 😉
